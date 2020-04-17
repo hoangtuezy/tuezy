@@ -1,0 +1,6 @@
+{% extends "layout/main" %}
+
+{% block content %}
+	{{ request.userPrincipal.name }}
+	<h1>{{ userInfo.UserName }}</h1>
+{% endblock %}

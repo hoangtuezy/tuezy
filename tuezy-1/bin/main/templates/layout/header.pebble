@@ -1,0 +1,18 @@
+<div id="header">
+	<div class="container">
+		<div id="logo" >
+			<img
+				src="https://secure.gravatar.com/avatar/9f2321ed83f99b6542cbac5fd92522bd?size=90"
+				alt="logo">
+
+		</div>
+		<div id="menu-top">
+			<ul class="nav-menu">
+				<li class="menu"><a href="" class="menu-text">Trang Chủ</a></li>
+				<li class="menu"><a href="blog" class="menu-text">BLog</a></li>
+			</ul>
+		</div>
+
+	</div>
+</div>
+<div id="website_slogan">{{ website_slogan }}</div>

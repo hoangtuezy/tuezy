@@ -1,0 +1,15 @@
+{% extends "layout/main" %} {% block content %}
+<div class="container">
+	<div class="card">
+		<div class="card-header">Demo title</div>
+		<div class="card-body">
+			<form action="perform_login" method="post">
+					<input type="text" name="username" placeholder="Username"/>
+					 <input type="password" name="password" placeholder="Password"/>
+					 <input type="submit" value="Log in" />
+			</form>
+		</div>
+		<div class="card-footer">{{ errorMessge }}</div>
+	</div>
+</div>
+{% endblock %}

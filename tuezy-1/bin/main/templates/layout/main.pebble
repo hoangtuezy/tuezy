@@ -1,0 +1,11 @@
+<html>
+	<head>
+		{% include "layout/meta_head" %}
+	</head>
+	<body>
+		{% include "layout/header" %}
+		{% block start_content %}{% endblock %}
+		{% block content %}{% endblock %}
+		{% block end_content %}{% endblock %}
+	</body>
+</html>
